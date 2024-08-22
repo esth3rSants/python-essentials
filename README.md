@@ -1,6 +1,6 @@
 
 # Python Essentials  📘
-
+#### Conteúdos do curso Python Essentials da Linux Tips.
 
 Segue abaixo a explicação de aprendizado de cada arquivo:
 
