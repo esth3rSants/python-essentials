@@ -26,7 +26,7 @@ import os
 #foi necessário o acréscimo do [:5] para pegar somente os cinco primeiros 
 #digítos da configuração do idioma, que pode padrão vem escrito dessa forma 
 #nos sistema operacionais : 'pt_BR.utf8'
-# Caso o sistema opereacional não tenha nenhuma configuração do GETEVEN por 
+# Caso o sistema opereacional não tenha nenhuma a variável GETEVEN, por 
 #padrão o msg vai ser traduzido para o inglês.
 current_language = os.getenv("LANG", "en_US")[:5]
 
