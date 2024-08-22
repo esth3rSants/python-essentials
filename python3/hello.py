@@ -24,8 +24,8 @@ import os
 # a função GETEVEN pede a variável de sistema LANG que possibilita o módulo  
 #'OS' ter acesso diretamente a configuranção de idioma do ambiente(sistema operacional).
 #foi necessário o acréscimo do [:5] para pegar somente os cinco primeiros 
-#digítos da configuração do idioma, que pode padrão vem escrito dessa forma 
-#nos sistema operacionais : 'pt_BR.utf8'
+#digítos da configuração do idioma, que por padrão vem escrito da seguinte
+#forma nos sistema operacionais : 'pt_BR.utf8'
 # Caso o sistema opereacional não tenha nenhuma a variável GETEVEN, por 
 #padrão o msg vai ser traduzido para o inglês.
 current_language = os.getenv("LANG", "en_US")[:5]
