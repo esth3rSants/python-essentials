@@ -1,17 +1,18 @@
 #!/usr/bin/env python
 "Imprime a tabuada."
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "Esther Ribeiro"
 
-numeros =list( range(1,11))
+numeros = list( range(1,11))
 
 
-for numero in numeros:
-    print("Tabuada do:", numero)
-    for outro_numero in numeros:
-        print(numero * outro_numero)
-       
-    print("*********************")
+for n1 in numeros:
+   print("{:-^15}".format(f"Tabuada do {n1}"))
+   print()
+   for n2 in numeros:
+        resultado = n1 * n2
+        print("{:^15}".format(f"{n1} x {n2} = {resultado}"))
+   print("#" * 15 )
     
 
-print(numeros)
+#print(numeros)
