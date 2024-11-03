@@ -21,3 +21,11 @@ Segue abaixo a explicação de aprendizado de cada arquivo:
  * **Metadados**: São informações úteis inseridas no código, informando o autor,a versão e etc...
  * **Interações com variáveis de ambiente, usando a biblioteca OS**: No mini projeto foi usado a biblioteca os, que interagiu diretamente com  a variável genenv do Linux (Debian), usando o recurso "LANG".
 
+[Tabuada.py](https://github.com/esth3rSants/python-essentials/blob/main/python3/tabuada.py)
+* **Uso do FOR, Lista, Range**.
+
+[Interpolação.py](https://github.com/esth3rSants/python-essentials/blob/main/python3/interpolacao.py)
+É uma forma de juntar um texto com as variáveis. Diferente da concatenação, a interpolação usa um %X para se referir a variável . E o X é o tipo de dado.
+
+[Aulas.py](https://github.com/esth3rSants/python-essentials/blob/main/python3/aulas.py)
+Uso de Tuplas e listas.
