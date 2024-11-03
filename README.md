@@ -25,7 +25,9 @@ Segue abaixo a explicação de aprendizado de cada arquivo:
 * **Uso do FOR, Lista, Range**.
 
 [Interpolação.py](https://github.com/esth3rSants/python-essentials/blob/main/python3/interpolacao.py)
+
 É uma forma de juntar um texto com as variáveis. Diferente da concatenação, a interpolação usa um %X para se referir a variável . E o X é o tipo de dado.
 
 [Aulas.py](https://github.com/esth3rSants/python-essentials/blob/main/python3/aulas.py)
+
 Uso de Tuplas e listas.
